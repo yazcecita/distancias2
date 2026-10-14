@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calcular Distancia</title>
+    <link rel="stylesheet" href="css/estillos.css" />
+  </head>
+  <body>
+
+    <h1>Distancia entre 2 puntos</h1>
+
+    <form action="">
+      
+      
+      <div class="grupo-columnas">
+        
+        
+        <div class="columna-punto">
+          <h2>Punto A</h2>
+          <section>
+            <div class="grupo">
+              <label class="tarjeta"><strong>X1:</strong></label>
+              <input class="text" type="number" id="x1" />
+            </div>
+
+            <div class="grupo">
+              <label class="tarjeta"><strong>Y1:</strong></label>
+              <input class="text" type="number" id="y1" />
+            </div>
+          </section>
+        </div>
+
+      
+        <div class="columna-punto">
+          <h2>Punto B</h2>
+          <section>
+            <div class="grupo">
+              <label class="tarjeta"><strong>X2:</strong></label>
+              <input class="text" type="number" id="x2" />
+            </div>
+
+            <div class="grupo">
+              <label class="tarjeta"><strong>Y2:</strong></label>
+              <input class="text" type="number" id="y2" />
+            </div>
+          </section>
+        </div>
+
+      </div>
+
+      <button type="button" onclick="calcularDistancia()" class="boton">
+        <strong> Calcular distancia </strong>
+      </button>
+
+      <div id="resultado"></div>
+    </form>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
